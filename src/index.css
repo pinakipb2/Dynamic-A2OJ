@@ -1,0 +1,106 @@
+body {
+  background-color: #b3e5fc;
+  border-radius: 10px;
+}
+
+.card {
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.stats {
+  background: #f2f5f8 !important;
+  color: #000 !important;
+}
+
+.articles {
+  font-size: 10px;
+  color: #a1aab9;
+}
+
+.number1 {
+  font-weight: 500;
+}
+
+.followers {
+  font-size: 10px;
+  color: #a1aab9;
+}
+
+.number2 {
+  font-weight: 500;
+}
+
+.rating {
+  font-size: 10px;
+  color: #a1aab9;
+}
+
+.number3 {
+  font-weight: 500;
+}
+
+.spacing {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.gap {
+  margin-right: 15px;
+}
+a {
+  text-decoration: none;
+}
+
+.lds-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 180px;
+}
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 70px solid #fff;
+  border-color: rgb(245, 160, 48) transparent rgb(245, 160, 48) transparent;
+  animation: lds-hourglass 1.2s infinite;
+}
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
+.center {
+  width: 100%;
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+}
+
+.errorStyle {
+  height: 90vh;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 2px 3px #01a8b4;
+  color: #722608;
+}
