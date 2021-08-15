@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://knowledgeable-utopian-tenor.glitch.me/"><strong>https://knowledgeable-utopian-tenor.glitch.me</strong></a>
+  <a href="https://dynamic-a2oj-pinakipb2.vercel.app/"><strong>https://dynamic-a2oj-pinakipb2.vercel.app</strong></a>
   <br>
 </p>
 
